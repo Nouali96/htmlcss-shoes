@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 h1 {
@@ -12,7 +13,6 @@ h1 {
     transform: translate(-50%, -50%);
     width: 600px;
     text-align: center;
-    font-family: 'Rubik Mono One', sans-serif;
     font-size: 300%;
 
 }
@@ -35,6 +35,47 @@ h1 {
 
 }
 /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\Regole generali/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+nav {
+    margin: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+.button-page{
+    background-color: #ffff;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+.button-page:hover{
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
 
 /* Inizio primo blocco */
 .box-red {
