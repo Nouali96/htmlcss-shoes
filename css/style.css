@@ -1,3 +1,4 @@
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/Regole generali\/\/\/\/\/\/\/\/\/\/\/\/\/ */
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +27,6 @@ h1 {
 }
 
 
-
 .container-center{
     position: absolute;
     top: 50%;
@@ -35,7 +35,9 @@ h1 {
     background-position: center;
 
 }
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\Regole generali/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
 
+/* Inizio primo blocco */
 .box-red {
     background-color: #ff0000;
 }
@@ -51,6 +53,8 @@ h1 {
     margin-top: -100px;
 }
 
+/* Fine primo blocco */
+
 .box-green{
     background-color: #008000;
 }
@@ -61,4 +65,8 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: -100px;
+}
+
+.box-green .container-center h1{
+    color: #ffff00;
 }
